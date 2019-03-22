@@ -57,5 +57,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "shepherd.js": "^2.5.0"
+  }
 }
