@@ -22,6 +22,9 @@ export default {
       sourcemap: true
     }
   ],
+  external: [
+    "styled-components"
+  ],
   plugins: [
     external(),
     postcss({

@@ -2,6 +2,17 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import Shepherd from 'shepherd.js';
 import 'shepherd.js/dist/css/shepherd-theme-dark.css'
+import styled from 'styled-components'
+
+const Button = styled.button`
+  color: palevioletred;
+  font-size: 1em;
+  margin: 1em;
+  padding: 0.25em 1em;
+  border: 2px solid palevioletred;
+  border-radius: 3px;
+`;
+
 
 const methods = [
     'back',
@@ -174,7 +185,7 @@ class Tour extends Component{
       render() {
         return (
           <TourContextConsumer.Provider value={this.tourState}>
-           <button className = 'shepherd-button' onClick={this.startTour}>Start Tour</button>
+           <Button onClick={this.startTour}>Start Tour</Button>
             {this.props.children}
           </TourContextConsumer.Provider>
         );
