@@ -40,6 +40,30 @@ useModalOverlay : boolean <br />
 
 The steps prop is the only prop that is required. Steps prop should take an array of steps.
 
+Example of steps - <br />
+<br />
+```js
+const steps = [
+    {
+        id: 'Tour Test',
+        options: {
+            title: 'Test',
+            text:  'This is a test of tour guide',
+            attachTo: '.test bottom',
+            buttons: [
+                {
+                  type: 'back',
+                  text: 'Back'
+                }, {
+                  type: 'next',
+                  text: 'Next'
+                }
+              ]
+        }
+    }
+]
+```
+
 ## License
 
 MIT © [williejay2017](https://github.com/williejay2017)
