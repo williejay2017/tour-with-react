@@ -7,11 +7,8 @@ const steps = [
             attachTo: '.test bottom',
             buttons: [
                 {
-                  type: 'back',
-                  text: 'Back'
-                }, {
-                  type: 'next',
-                  text: 'Next'
+                  type: 'hide',
+                  text: 'Done'
                 }
               ]
         }
