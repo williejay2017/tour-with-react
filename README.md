@@ -29,12 +29,12 @@ class ClassName extends Component {
 
 ## Props
 
-steps : Array  - Required
-confirmCancel : boolean
-confirmCancelMsg : string
-defaultStepOptions : object
-tourName : string
-useModalOverlay : boolean
+steps : Array  - Required <br />
+confirmCancel : boolean <br />
+confirmCancelMsg : string <br />
+defaultStepOptions : object <br />
+tourName : string <br />
+useModalOverlay : boolean <br />
 
 ## Important
 
