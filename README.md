@@ -14,17 +14,31 @@ npm install --save tour-with-react
 
 ```jsx
 import React, { Component } from 'react'
+import {TourGuide } from 'tour-with-react';
 
-import MyComponent from 'tour-with-react'
 
-class Example extends Component {
+class ClassName extends Component {
   render () {
     return (
-      <MyComponent />
+      <TourGuide {...props} />
+      {this.props.children}
     )
   }
 }
 ```
+
+## Props
+
+steps : Array  - Required
+confirmCancel : boolean
+confirmCancelMsg : string
+defaultStepOptions : object
+tourName : string
+useModalOverlay : boolean
+
+## Important
+
+The steps prop is the only prop that is required. Steps prop should take an array of steps.
 
 ## License
 

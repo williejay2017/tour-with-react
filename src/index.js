@@ -23,7 +23,7 @@ class Tour extends Component{
         confirmCancelMsg: PropTypes.string,
         defaultStepOptions: PropTypes.object,
         tourName: PropTypes.string,
-        steps: PropTypes.array,
+        steps: PropTypes.array.isRequired,
         useModalOverlay: PropTypes.bool
     }
 
