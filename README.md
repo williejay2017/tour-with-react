@@ -35,6 +35,8 @@ confirmCancelMsg : string <br />
 defaultStepOptions : object <br />
 tourName : string <br />
 useModalOverlay : boolean <br />
+theme : object <br />
+text: string <br />
 
 ## Important
 
@@ -62,6 +64,34 @@ const steps = [
         }
     }
 ]
+```
+
+Theme example for styling your start tour button <br />
+```js
+const theme = {
+  display: 'inline-block',
+  borderRadius: '3px',
+  padding: '0.5rem 0',
+  margin: '0.5rem 1rem',
+  width: '11rem',
+  background: 'transparent',
+  color: 'white',
+  border: '2px solid black',,
+}
+
+export default class App extends Component {
+  render () {
+    return (
+      <div className = 'test'>
+        <TourGuide defaultStepOptions={stepOptions} steps={steps} useModalOverlay={false} text={'Button Text'} theme={theme}/>
+      </div>
+    )
+  }
+```
+
+## Dependencies
+```bash
+styled-components  install via :  npm install --save styled-components 
 ```
 
 ## License
