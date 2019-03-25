@@ -91,7 +91,8 @@ export default class App extends Component {
 
 ## Dependencies
 ```bash
-styled-components  install via :  npm install --save styled-components 
+styled-components  -  npm install --save styled-components 
+enzyme             -  npm i --save-dev enzyme enzyme-adapter-react-16 
 ```
 
 ## License
