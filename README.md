@@ -92,7 +92,7 @@ export default class App extends Component {
 ## Dependencies
 ```bash
 styled-components  -  npm install --save styled-components 
-enzyme             -  npm i --save-dev enzyme enzyme-adapter-react-16 
+shepherd js        -  npm install --save shepherdjs 
 ```
 
 ## License
